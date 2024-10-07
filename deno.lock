@@ -1,0 +1,27 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/assert@1": "1.0.6",
+    "jsr:@std/internal@^1.0.4": "1.0.4"
+  },
+  "jsr": {
+    "@std/assert@1.0.6": {
+      "integrity": "1904c05806a25d94fe791d6d883b685c9e2dcd60e4f9fc30f4fc5cf010c72207",
+      "dependencies": [
+        "jsr:@std/internal"
+      ]
+    },
+    "@std/internal@1.0.4": {
+      "integrity": "62e8e4911527e5e4f307741a795c0b0a9e6958d0b3790716ae71ce085f755422"
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.196.0/fmt/colors.ts": "a7eecffdf3d1d54db890723b303847b6e0a1ab4b528ba6958b8f2e754cf1b3bc",
+    "https://deno.land/x/cliffy@v1.0.0-rc.3/ansi/colors.ts": "328916ea1627c202b39f2ed0f1ca65a573cfb75fa8986aa3dbcc0b7463911005"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/assert@1"
+    ]
+  }
+}
