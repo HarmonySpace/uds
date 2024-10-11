@@ -1,7 +1,8 @@
 {
   "tasks": {
     "dev": "deno run --watch --allow-write --allow-env alpha/main.ts",
-    "preview": "deno run --allow-write --allow-env alpha/main.ts"
+    "preview": "deno run --allow-write --allow-env alpha/main.ts",
+    "build": "deno compile --allow-write --allow-env alpha/main.ts"
   },
   "imports": {
     "@std/assert": "jsr:@std/assert@1",
